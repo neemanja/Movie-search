@@ -6,9 +6,9 @@ This is an app developed using Ionic 1 that calls the movie database API. It all
 
 1.Install of the Ionic CLI: npm install -g ionic cordova
 
-2.Clone this repository: git clone https://github.com/neemanja/Movie-search.git
+2.Clone this repository: git clone https://github.com/neemanja/movie-search.git
 
-3.Navigate to the IonicRealty directory: cd Movie-search
+3.Navigate to the IonicRealty directory: cd movie-search
 
 4.Install the dependencies: npm install
 
