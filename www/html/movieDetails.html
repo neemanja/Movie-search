@@ -1,0 +1,19 @@
+<ion-view view-title="Movie details">
+    <ion-content class="padding">
+        <div class="movie-details-box">
+            <div class="movie-details-box__title"><p>{{movie.Title}}</p></div>
+            <div class="movie-details-box__img"><img  ng-src="{{movie.Poster==='N/A' ? 'img/No-image-available.jpg' : movie.Poster }}"></div>
+            <movie-info-dir class="movie-details-box__dir" title="Genre:" text="{{movie.Genre}}"></movie-info-dir>
+            <movie-info-dir class="movie-details-box__dir" title="Type:" text="{{movie.Type}}"></movie-info-dir>
+            <movie-info-dir class="movie-details-box__dir" title="Year:" text="{{movie.Year}}"></movie-info-dir>
+            <div class="movie-details-box__rating">
+                <p>Rating:</p>
+                <span><span ng-style="{ 'width': getStars(movie.imdbRating) }"></span></span>
+                <p>{{movie.imdbRating}}</p>
+            </div>
+            <movie-info-dir class="movie-details-box__dir" title="Director:" text="{{movie.Director}}"></movie-info-dir>
+            <movie-info-dir class="movie-details-box__dir" title="Actors:" text="{{movie.Actors}}"></movie-info-dir>
+            <div class="movie-details-box__plot">{{movie.Plot}}</div>
+        </div>
+    </ion-content>
+</ion-view>

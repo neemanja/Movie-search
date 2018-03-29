@@ -1,0 +1,160 @@
+/*****************home.html************/
+.movie-name{
+    width: 90%;
+    margin-left: 4px;
+    border-radius: 4px;
+    padding-left: 6px !important;
+}
+
+.movie-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #7265FE;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+
+.movie-box__img{
+    width: 90%;
+}
+
+.movie-box__img img{
+    width: 100%;
+    height: 70vw;
+    border-radius: 4px;
+}
+
+.movie-box__title{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.movie-box__button{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #7265FE;
+    color: white;
+    border: none;
+}
+/*************************END home.html **************/
+
+/******Directive *****/
+.movie-info-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-info-box__title{
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.movie-info-box__text{
+    width: 75%;
+    color: white;
+    font-size: 16px;
+}
+
+.movie-info-box span{
+    color: white;
+    font-size: 16px;
+}
+
+.movie-info-box p{
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+/******Directive end*****/
+/***********movieDetalis.html****************/
+.movie-details-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+
+.movie-details-box__title{
+    background-color: #303237;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.movie-details-box__title p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.movie-details-box__img{
+    margin-top: 4px;
+    width: 100%;
+}
+
+.movie-details-box__img img{
+    width: 100%;
+    height: 70vw;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.movie-details-box__dir{
+    width: 100%;
+}
+
+.movie-details-box__rating{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 20px;
+}
+
+.movie-details-box__rating p{
+    color: white;
+    font-weight: bold;
+    width: 25%;
+    font-size: 16px;
+}
+
+.movie-details-box__rating span, .movie-details-box__rating span span{
+    display: block;
+    background: url('https://apppresser.com/wp-content/uploads/2015/11/stars.png') 0 -16px repeat-x;
+    width: 80px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.movie-details-box__rating span span{
+    background-position: 0 0;
+}
+
+
+.movie-details-box__plot{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-size: 16px;
+    border-top: 1px solid white;
+}
+/***********END movieDetalis.html****************/
+ion-content{
+    background-color: #1B1B1E;
+}

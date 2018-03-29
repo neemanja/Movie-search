@@ -1,0 +1,15 @@
+<ion-view view-title="Movie search" class="title-center" >
+    <div class="bar bar-dark bar-subheader">
+        <input class="movie-name" type="text" ng-model="movieName" ng-change="movieNameChange()" ng-model-options="{ debounce: 1000 }" placeholder="Enter movie name"/>
+    </div>
+    <ion-content class="padding">
+        <br/><br/>
+        <div ng-repeat="movie in movies">
+          <div class="movie-box">
+            <div class="movie-box__img"><img  ng-src="{{movie.Poster==='N/A' ? 'img/No-image-available.jpg' : movie.Poster}}"></div>
+            <div class="movie-box__title">{{movie.Title}}</div>
+            <button class="movie-box__button" ng-click="movieDetailsClick(movie.imdbID)">Movie details</button>
+          </div>
+        </div>
+    </ion-content>
+</ion-view>
